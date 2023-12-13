@@ -4,5 +4,5 @@ const stateCard = document.querySelector('.state_card');
 
 submitButton.onclick = function () {
 	ratingCard.style.display = 'none';
-	stateCard.style.display = 'block';
+	stateCard.style.display = 'flex';
 };

@@ -18,24 +18,28 @@ main {
     display:flex;
     flex-direction: column;
     align-items: flex-start;
-    gap:1em;
-    padding: 1rem;
+    gap:1.5em;
+    padding:2em 1rem;
     background-color: white;
     margin: 0 1rem;
-    border-radius: 5px;
+    border-radius: 20px;
     background-color: hsl(213, 19%, 18%);
 }
 .rating_card_icon {
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color:hsl(217, 12%, 63%);
+    background-color:hsla(217, 12%, 63%, 0.222);
     border-radius: 100%;
     padding:0.5em;
 }
 .rating_card_title h2 {
     color:white;
     margin:0;
+}
+
+.rating_card_text {
+    margin-top: -10px;
 }
 
 .rating_card_text p {
@@ -48,20 +52,25 @@ main {
     display:flex;
     justify-content: space-between;
     width:100%;
+    margin:0.5em 0;
+    
 }
 .rating_card_rate {
-display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: hsl(217, 12%, 63%);
-    border-radius: 100%;
-    padding: 1em;
+background:hsla(217, 12%, 63%, 0.222);
+    border-radius: 50%;
+    color: white;
+    height: 3em;
+    position: relative;
+    width: 3em;
 }
 .rating_card_rate p {
-   margin:0;
-   line-height: 0%;
+    margin:0;
+    left: 50%;
+    position: absolute;
+    top: 55%;
+    transform: translate(-50%, -50%);
+   
 }
-
 .rating_card_button {
     width: 100%;
 }
@@ -79,4 +88,29 @@ display: flex;
 
 .state_card {
     display:none;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5em;
+        padding: 2em 1rem;
+        background-color: white;
+        margin: 0 1rem;
+        border-radius: 20px;
+        background-color: hsl(213, 19%, 18%);
+}
+.state_card_title h3 {
+    color:hsl(25, 97%, 53%);
+    margin:0;
+}
+
+.state_card_thanks h2 {
+    color:white;
+    margin:0;
+}
+
+.state_card_text p {
+    margin:0;
+    color:hsl(217, 12%, 63%);
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.5;
 }
