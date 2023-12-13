@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<title>Frontend Mentor | Interactive rating component</title>
+	</head>
+	<body>
+		<!-- Rating state start -->
+		<main>
+			<div class="rating_card">
+				<div class="rating_card_icon">
+					<img src="./images/icon-star.svg" alt="star" />
+				</div>
+				<div class="rating_card_title"><h2>How did we do?</h2></div>
+				<div class="rating_card_text">
+					<p>
+						Please let us know how we did with your support request. All
+						feedback is appreciated to help us improve our offering!
+					</p>
+				</div>
+				<div class="rating_card_rates">
+					<div class="rating_card_rate"><p>1</p></div>
+					<div class="rating_card_rate"><p>2</p></div>
+					<div class="rating_card_rate"><p>3</p></div>
+					<div class="rating_card_rate"><p>4</p></div>
+					<div class="rating_card_rate"><p>5</p></div>
+				</div>
+				<div class="rating_card_button"><button>Submit</button></div>
+			</div>
+			<!-- Rating state end -->
+
+			<!-- Thank you state start -->
+			<div class="state_card">
+				<div class="state_card_img">Image</div>
+				<div class="state_card_title"><h3>You selected</h3></div>
+				<!-- Add rating here -->
+				<div class="state_card_amount">out of 5 Thank you!</div>
+				<div class="state_card_text">
+					<p>
+						We appreciate you taking the time to give a rating. If you ever need
+						more support, don’t hesitate to get in touch!
+					</p>
+				</div>
+			</div>
+
+			<!-- Thank you state end -->
+		</main>
+	</body>
+	<footer>
+		<script src="./app.js"></script>
+	</footer>
+</html>
